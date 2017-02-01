@@ -8,6 +8,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import java.util.List;
+
 /**
  * Created by piaomiao on 2017/2/1.
  */
@@ -30,7 +33,18 @@ public class BorrowServiceTest {
         int i = borrowService.deleteById(borrowid);
         System.out.println(i);
     }
-
+    
+    @Test
+    public  void  getList() throws  Exception{
+        List<Borrow> list = borrowService.selectPage(2,8);
+        for (Borrow borrow:list) {
+            System.out.println(borrow.getId());
+        }
+        
+        
+        
+        
+    }
 
 
 

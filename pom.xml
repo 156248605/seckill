@@ -146,10 +146,17 @@
       <artifactId>commons-collections</artifactId>
       <version>3.2</version>
     </dependency>
+    <!--通用mapper-->
     <dependency>
       <groupId>tk.mybatis</groupId>
       <artifactId>mapper</artifactId>
       <version>3.3.9</version>
+    </dependency>
+   <!--分布插件PageHelper-->
+    <dependency>
+      <groupId>com.github.pagehelper</groupId>
+      <artifactId>pagehelper</artifactId>
+      <version>5.0.0</version>
     </dependency>
 
   </dependencies>

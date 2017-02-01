@@ -1,6 +1,4 @@
 package org.seckill.web;
-import org.seckill.dao.SeckillDao;
-import org.seckill.entity.Seckill;
 import org.seckill.entity.User;
 import org.seckill.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

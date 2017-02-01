@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f222d165-486f-4016-9b32-e1bc88595780" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dao/BorrowDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/entity/Borrow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/service/BaseService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/service/BorrowService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/BaseServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/BorrowServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/seckill/service/BorrowServiceTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/seckill/dao/SeckillDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/seckill/dao/SuccessKilledDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/seckill/entity/Seckill.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/seckill/entity/SuccessKilled.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/seckill/service/SeckillService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mapper/SeckillDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mapper/SuccesskilledDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/seckill/dao/SeckillDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/seckill/dao/SuccessKilledDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/seckill/dto/Exposer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/seckill/dto/SeckillExecution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/seckill/dto/SeckillResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/seckill/entity/Seckill.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/seckill/entity/SuccessKilled.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/seckill/service/SeckillService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/seckill/service/impl/SeckillServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/seckill/web/SeckillController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/service/SeckillService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/service/impl/SeckillServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/web/SeckillController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/org/seckill/dao/SeckillDaoTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/org/seckill/service/SeckillServiceTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/seckill/web/TestController.class" afterPath="$PROJECT_DIR$/target/classes/org/seckill/web/TestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/seckill.war" afterPath="$PROJECT_DIR$/target/seckill.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/web/TestController.class" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/web/TestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/seckill/dto/Exposer.java" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dto/Exposer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillExecution.java" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillExecution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillResult.java" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/seckill/web/SeckillController.java" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/web/SeckillController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/seckill/web/TestController.java" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/web/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/seckill/dao/SeckillDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/seckill/dao/SeckillDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/seckill/service/SeckillServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/seckill/service/SeckillServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/jdbc.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/mapper/SeckillDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SeckillDao.xml.bak" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/mapper/SuccesskilledDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SuccesskilledDao.xml.bak" />
-    </list>
+    <list default="true" id="f222d165-486f-4016-9b32-e1bc88595780" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/service/impl/BorrowServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="30" />
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/service/impl/BaseServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="104">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -115,8 +65,8 @@
       <file leaf-file-name="BorrowServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/seckill/service/BorrowServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="386">
+              <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/service/BaseService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="220">
+              <caret line="156" column="26" lean-forward="false" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -154,6 +104,7 @@
       <find>basePackage</find>
       <find>seckill-dispatcher</find>
       <find>base</find>
+      <find>factory</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,7 +125,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/exception/SeckillException.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/impi/SeckillServiceImpi.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/enums/SeckillStateEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/seckill/exception/RepeatkillException.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/SeckillService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/head.jsp" />
@@ -185,10 +135,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/exception/SeckillCloseException.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/entity/RbUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/dao/RbUser.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/dao/RbUserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/dao/SuccessKilledDao.java" />
@@ -197,10 +145,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/BaseService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/BaseService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/seckill/web/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/web/SeckillController.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/seckill/service/SeckillServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/BorrowService.java" />
@@ -214,8 +160,13 @@
         <option value="$PROJECT_DIR$/src/test/java/org/seckill/dao/SeckillDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/SeckillDao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/SuccesskilledDao.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/org/seckill/service/BorrowServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/BaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/seckill/web/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/seckill/exception/RepeatkillException.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/org/seckill/service/BorrowServiceTest.java" />
       </list>
     </option>
   </component>
@@ -600,6 +551,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -799,7 +776,7 @@
       <recent name="D:\java\miaosha\seckill\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BorrowServiceTest.deleteById">
+  <component name="RunManager" selected="JUnit.BorrowServiceTest.getList">
     <configuration default="false" name="SeckillDaoTest.queryById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -865,6 +842,32 @@
       <option name="PACKAGE_NAME" value="org.seckill.service" />
       <option name="MAIN_CLASS_NAME" value="org.seckill.service.BorrowServiceTest" />
       <option name="METHOD_NAME" value="deleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BorrowServiceTest.getList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.seckill.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seckill" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.seckill.service" />
+      <option name="MAIN_CLASS_NAME" value="org.seckill.service.BorrowServiceTest" />
+      <option name="METHOD_NAME" value="getList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1342,17 +1345,19 @@
         </option>
       </method>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat8" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SeckillDaoTest.queryById" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BorrowServiceTest.getById" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.BorrowServiceTest.deleteById" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BorrowServiceTest.getList" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BorrowServiceTest.deleteById" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BorrowServiceTest.getById" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SeckillDaoTest.queryById" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BorrowServiceTest.getList" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BorrowServiceTest.deleteById" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BorrowServiceTest.getById" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SeckillDaoTest.queryById" />
       </list>
     </recent_temporary>
   </component>
@@ -1375,7 +1380,7 @@
       <workItem from="1485491870888" duration="1059000" />
       <workItem from="1485576943303" duration="1218000" />
       <workItem from="1485662495618" duration="6458000" />
-      <workItem from="1485924859067" duration="8976000" />
+      <workItem from="1485924859067" duration="12093000" />
     </task>
     <servers />
   </component>
@@ -1384,6 +1389,12 @@
       <configuration name="BorrowServiceTest.deleteById" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BorrowServiceTest_deleteById - 2017.02.01 at 15h 59m 35s.xml">
+      <configuration name="BorrowServiceTest.deleteById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BorrowServiceTest_deleteById - 2017.02.01 at 17h 56m 54s.xml">
+      <configuration name="BorrowServiceTest.deleteById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BorrowServiceTest_deleteById - 2017.02.01 at 17h 58m 07s.xml">
       <configuration name="BorrowServiceTest.deleteById" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BorrowServiceTest_getById - 2017.02.01 at 15h 49m 53s.xml">
@@ -1395,18 +1406,18 @@
     <history-entry file="BorrowServiceTest_getById - 2017.02.01 at 15h 52m 58s.xml">
       <configuration name="BorrowServiceTest.getById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeckillDaoTest_queryById - 2017.01.02 at 22h 13m 02s.xml">
-      <configuration name="SeckillDaoTest.queryById" configurationId="JUnit" />
+    <history-entry file="BorrowServiceTest_getList - 2017.02.01 at 17h 53m 45s.xml">
+      <configuration name="BorrowServiceTest.getList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeckillDaoTest_queryById - 2017.01.02 at 22h 17m 56s.xml">
-      <configuration name="SeckillDaoTest.queryById" configurationId="JUnit" />
+    <history-entry file="BorrowServiceTest_getList - 2017.02.01 at 17h 58m 50s.xml">
+      <configuration name="BorrowServiceTest.getList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeckillDaoTest_queryById - 2017.01.07 at 13h 01m 45s.xml">
-      <configuration name="SeckillDaoTest.queryById" configurationId="JUnit" />
+    <history-entry file="BorrowServiceTest_getList - 2017.02.01 at 17h 59m 26s.xml">
+      <configuration name="BorrowServiceTest.getList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53864000" />
+    <option name="totallyTimeSpent" value="56981000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1441,7 +1452,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22883295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38443935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20891514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1472,13 +1483,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a993ad96-acea-41a1-b873-3f12f6e77d64/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/entity/SuccessKilled.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -1582,19 +1586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/exception/RepeatkillException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#235#236#0" expanded="false" />
-            <element signature="e#302#303#0" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/exception/SeckillCloseException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -1642,26 +1633,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1682">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/dao/SuccessKilledDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="160" column="54" lean-forward="true" selection-start-line="160" selection-start-column="54" selection-end-line="160" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1704,14 +1679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/web/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1877,7 +1844,7 @@
         <state relative-caret-position="228">
           <caret line="32" column="17" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
           <folding>
-            <element signature="e#0#1039#0" expanded="true" />
+            <element signature="e#0#1039#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1893,7 +1860,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/service/impl/BorrowServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="30" />
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1910,28 +1877,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/seckill/service/BorrowServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="261">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repository/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0.jar!/com/github/pagehelper/page/PageMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/web/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/service/BaseService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/exception/RepeatkillException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="87">
+          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding>
+            <marker date="1485942807074" expanded="false" signature="213:224" ph=" { " />
+            <marker date="1485942807074" expanded="false" signature="239:245" ph=" }" />
+            <marker date="1485942807074" expanded="false" signature="310:321" ph=" { " />
+            <marker date="1485942807074" expanded="false" signature="343:349" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/service/impl/BaseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="104">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/seckill/service/BorrowServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="156" column="26" lean-forward="false" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="36" />
           <folding />
         </state>
       </provider>
