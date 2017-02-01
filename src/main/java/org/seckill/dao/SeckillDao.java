@@ -1,16 +1,12 @@
 package org.seckill.dao;
 
 import org.apache.ibatis.annotations.Param;
-
 import java.util.Date;
 import java.util.List;
-
 import  org.seckill.entity.Seckill;
+import tk.mybatis.mapper.common.Mapper;
 
-/**
- * Created by piaomiao on 2017/1/2.
- */
-public interface SeckillDao {
+public interface SeckillDao extends Mapper<Seckill> {
     /**
      * 减库存，
      *

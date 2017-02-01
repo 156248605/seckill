@@ -1,7 +1,4 @@
 package org.seckill.exception;
-
-import org.seckill.dto.SeckillExecution;
-
 /**
  * 秒杀关闭异常
  */

@@ -47,6 +47,15 @@
 		<!-- 给出需要扫描Dao接口包 -->
 		<property name="basePackage" value="org.seckill.dao" />
 	</bean>
+   <!--通用mapper-->
+   <bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">
+	   <property name="basePackage" value="com.isea533.mybatis.mapper"/>
+	   <property name="properties">
+		   <value>
+			   mappers=tk.mybatis.mapper.common.Mapper
+		   </value>
+	   </property>
+   </bean>
 
 
 </beans>

@@ -1,11 +1,13 @@
 package org.seckill.entity;
 
+import javax.persistence.Id;
 import java.util.Date;
 
 /**
  * Created by piaomiao on 2017/1/2.
  */
 public class Seckill {
+    @Id
     private long seckillId;
     private String name;
     private int number;

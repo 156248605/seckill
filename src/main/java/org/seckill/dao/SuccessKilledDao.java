@@ -1,8 +1,5 @@
 package org.seckill.dao;
 import org.seckill.entity.SuccessKilled;
-/**
- * Created by piaomiao on 2017/1/2.
- */
 public interface SuccessKilledDao {
     /**
      * 插入购买明细，可过滤重复
