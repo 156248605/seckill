@@ -1,11 +1,10 @@
+/*
 package org.seckill.web;
 
 import org.seckill.dto.Exposer;
 
 import org.seckill.dto.SeckillResult;
 import org.seckill.entity.Seckill;
-
-import org.seckill.service.SeckillService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,8 +21,8 @@ public class SeckillController {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Autowired
-    private SeckillService seckillService;
+   // @Autowired
+    //private SeckillService seckillService;
     //http://localhost:8080/seckill/seckill/list
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public String list(Model model) {
@@ -63,7 +62,8 @@ public class SeckillController {
         return result;
     }
 
-  /*  @RequestMapping(value = "/{seckillId}/{md5}/execution", method = RequestMethod.POST, produces = {
+  */
+/*  @RequestMapping(value = "/{seckillId}/{md5}/execution", method = RequestMethod.POST, produces = {
             "application/json; charset=utf-8" })
     @ResponseBody
     public SeckillResult<SeckillExecution> execute(@PathVariable("seckillId") Long seckillId,
@@ -87,7 +87,8 @@ public class SeckillController {
             SeckillExecution execution = new SeckillExecution(seckillId, SeckillStateEnum.INNER_ERROR);
             return new SeckillResult<SeckillExecution>(true, execution);
         }
-    }*/
+    }*//*
+
 
     @RequestMapping(value = "/time/now", method = RequestMethod.GET)
     @ResponseBody
@@ -97,3 +98,4 @@ public class SeckillController {
     }
 
 }
+*/

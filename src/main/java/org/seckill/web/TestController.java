@@ -1,6 +1,8 @@
 package org.seckill.web;
 import org.seckill.dao.SeckillDao;
 import org.seckill.entity.Seckill;
+import org.seckill.entity.User;
+import org.seckill.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,12 +13,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/test")
 public class TestController {
      @Autowired
-     private SeckillDao seckillDao;
+     private UserService userService;
     @RequestMapping(value = "/list",method = RequestMethod.GET)
     public String test(Model model){
-     Seckill seckill = seckillDao.selectByPrimaryKey(Long.valueOf("1000"));
-        System.out.println(seckill.getName());
-     return null;
+        User user = userService.getById(Integer.valueOf("1952"));
+        System.out.println(user.getUserRealname());
+        return null;
 
     }
 

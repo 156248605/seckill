@@ -1,11 +1,14 @@
+/*
 package org.seckill.dto;
 
+*/
 /**
  * 暴露秒杀地址DTO
  *
  *
  *
- */
+ *//*
+
 public class Exposer {
     //是否开启秒杀
     private  boolean exposed;
@@ -88,3 +91,4 @@ public class Exposer {
         this.end = end;
     }
 }
+*/

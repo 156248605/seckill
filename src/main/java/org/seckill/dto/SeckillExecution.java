@@ -1,13 +1,16 @@
+/*
 package org.seckill.dto;
 
 import org.seckill.entity.SuccessKilled;
 import org.seckill.enums.SeckillStateEnum;
 
+*/
 /**
  * 封闭秒杀执行后结果
  *
  *
- */
+ *//*
+
 public class SeckillExecution {
     private  long seckillId;
 
@@ -65,3 +68,4 @@ public class SeckillExecution {
         this.successKilled = successKilled;
     }
 }
+*/

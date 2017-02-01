@@ -1,3 +1,4 @@
+/*
 package org.seckill.dto;
 public class SeckillResult<T> {
     private boolean success;
@@ -53,3 +54,4 @@ public class SeckillResult<T> {
 
 
 }
+*/
