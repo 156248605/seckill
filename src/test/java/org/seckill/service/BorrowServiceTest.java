@@ -1,7 +1,6 @@
 package org.seckill.service;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.seckill.dao.BorrowDao;
 import org.seckill.entity.Borrow;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

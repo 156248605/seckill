@@ -4,9 +4,7 @@ import org.seckill.service.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.common.Mapper;
-
 import java.util.List;
-
 /**
  * Created by piaomiao on 2017/2/1.
  * 通用mapper,包括基本的CURD操作
