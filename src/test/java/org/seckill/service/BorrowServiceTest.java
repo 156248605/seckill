@@ -2,6 +2,7 @@ package org.seckill.service;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.seckill.entity.Borrow;
+import org.seckill.utils.PropertiesUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,13 +41,12 @@ public class BorrowServiceTest {
             System.out.println(borrow.getId());
         }
         
-        
-        
-        
     }
 
-
-
-
+   //随便测测就放这里
+   @Test
+   public  void  test() throws Exception{
+       System.out.println(PropertiesUtil.get("AGREEMENT.PDF.WATERMARK.FILEPATH"));
+   }
 
 }
